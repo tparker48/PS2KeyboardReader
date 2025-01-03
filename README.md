@@ -1,4 +1,4 @@
-#PS/2 Keyboard Reader#
+# PS/2 Keyboard Reader
 
 PS2KeyboardReader allows you to read PS2 Keybard state info 
 
