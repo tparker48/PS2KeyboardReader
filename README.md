@@ -11,9 +11,7 @@ and timing of key up/down events is important.
 
 TLDR: 
  - Lets you see the state of all keys on keyboard in real time.
- - Installed within arduino packages at: 
-  - /home/{USERNAME}/.arduino15/packages/teensy/hardware/avr/1.58.1/libraries/PS2KeyboardReader
- - Imported as:
-  - "#include "PS2KeyboardReader.h"
+ - Installed within arduino packages at `/home/{USERNAME}/.arduino15/packages/teensy/hardware/avr/1.58.1/libraries/PS2KeyboardReader`
+ - Imported as `#include "PS2KeyboardReader.h`
 
 
