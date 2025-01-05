@@ -29,9 +29,9 @@ void setup() {
 void loop() {
   keyboard.refresh();
 
- if (keyboard.key_down(PS2_UPARROW)){
-  Serial.print('Up Arrow Pressed!\n');
- }
+  if (keyboard.key_down(PS2_UPARROW)){
+   Serial.print('Up Arrow Pressed!\n');
+  }
 
   delay(5);
 }
