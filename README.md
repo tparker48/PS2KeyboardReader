@@ -10,7 +10,7 @@
    - If you're not using the Arduino IDE, you may want to place it somewhere else.
 
 ## Usage
-Example
+(micropython)
 ```c
 #include "PS2KeyboardReader.h"
 
