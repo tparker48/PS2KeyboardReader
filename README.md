@@ -10,8 +10,8 @@
    - If you're not using the Arduino IDE, you may want to place it somewhere else.
 
 ## Usage
-(micropython)
-```c
+(Arduino Programming Language)
+```c++
 #include "PS2KeyboardReader.h"
 
 // May be different depending on which pins you're using for you project
