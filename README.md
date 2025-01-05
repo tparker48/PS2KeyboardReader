@@ -23,7 +23,6 @@ PS2Keyboard keyboard;
 void setup() {
   delay(1000);
   keyboard.begin(DataPin, IRQpin);
-
   Serial.begin(9600);
 }
 
