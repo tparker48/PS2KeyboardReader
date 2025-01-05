@@ -14,7 +14,7 @@ Example
 ```
 #include "PS2KeyboardReader.h"
 
-// May be different depending on which pins you're using
+// May be different depending on which pins you're using for you project
 const int DataPin = 1;
 const int IRQpin =  2;
 
@@ -23,14 +23,21 @@ PS2Keyboard keyboard;
 void setup() {
   delay(1000);
   keyboard.begin(DataPin, IRQpin);
+
   Serial.begin(9600);
 }
 
 void loop() {
   keyboard.refresh();
 
+  // key_down() returns the current state of the key (true for down, false for up)
   if (keyboard.key_down(PS2_UPARROW)){
-   Serial.print('Up Arrow Pressed!\n');
+    Serial.print('The up key is currently being pressed!\n');
+  }
+
+  // key_toggle() will only return true when a key has been pressed and then released
+  if (keyboard.key_toggle(PS2_DOWNARROW)){
+    Serial.print('The down key was pressed and released!\n')
   }
 
   delay(5);
