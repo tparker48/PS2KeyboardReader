@@ -14,7 +14,7 @@ Example
 ```
 #include "PS2KeyboardReader.h"
 
-// May be different depending on which pins you're using for you project
+// May be different depending on which pins you're using
 const int DataPin = 1;
 const int IRQpin =  2;
 
