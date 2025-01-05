@@ -11,7 +11,7 @@
 
 ## Usage
 Example
-```micropython
+```c
 #include "PS2KeyboardReader.h"
 
 // May be different depending on which pins you're using for you project
